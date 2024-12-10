@@ -1,0 +1,314 @@
+*{
+    font-family: "Rufina";
+}
+.first {
+    background-color: #233000;
+    width: 1920px;
+    height: 2970px;
+}
+.header {
+    background-color: #233000;
+    width: 1920px;
+    height: 208px;
+}
+
+.logo1 {
+    position: absolute;
+    width: 307px;
+    height: 54px;
+    left: 118px;
+    top: 69px;}
+
+.logo2 {
+    position: absolute;
+    width: 192px;
+    height: 115px;
+    left: 173px;
+    top: 46px;
+}
+
+.menu0 {
+    position: absolute;
+    left: 540px;
+    top: 90px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 26px;
+}
+.cooking {
+    position: absolute;
+    left: 700px;
+    top: 90px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 26px;
+}
+
+.number {
+    user-select: none;
+    position: absolute;
+    left: 1280px;
+    top: 68px;
+    font-weight: 500;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.b0 {
+    height: 88px;
+    margin-top: 60px;
+    margin-left: 1540px ;
+    position: absolute;
+}
+
+.logo3 {
+    position: absolute;
+    width: 792px;
+    height: 931px;
+    top: 434px;
+    left: 990px;
+}
+.logo4 {
+    position: absolute;
+    width: 854px;
+    height: 240px;
+    top: 1165px;
+    left: 644px;
+    gap: 44px;
+}
+.text1 {
+    width: 1057px;
+    height: 456px;
+    font-weight: 700;
+    font-size: 148px;
+    color: #FFFFFF;
+}
+.text2 {
+    width: 565px;
+    height: 68px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.firsttext {
+    margin-left: 180px;
+    position: absolute;
+}
+.logo5 {
+    width: 64px;
+    height: 562px;
+    top: 934px;
+    left: 140px;
+    gap: 26px;
+}
+.div1 {
+    margin-left: 140px;
+    margin-top: 1645px;
+    position: absolute;
+}
+.logo6 {
+    width: 792px;
+    height: 560px;
+}
+.text3 {
+    width: 493px;
+    height: 159px;
+    font-weight: 700;
+    font-size: 68px;
+    color: #FFFFFF;
+}
+.text4 {
+    width: 565px;
+    height: 68px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.text5 {
+    width: 508px;
+    height: 68px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.div2 {
+    margin-left: 1265px;
+    margin-top: 1635px;
+}
+.second {
+    width: 1920px;
+    height: 1240px;
+    top: 4196px;
+    background-color: #EBF0E4;
+    margin-top: -110px;
+}
+.leaf0 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.img5 {
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 150px;
+}
+.Excellentcook {
+    font-size: 108px;
+    padding-top: 170px;
+    padding-left: 1200px;
+    position: absolute;
+}
+.lorem0 {
+    padding-left: 1200px;
+    padding-top: 550px;
+    font-size: 23px;
+    font-weight: 100;
+    line-height: 45px;
+    position: absolute;
+}
+.leaf1{
+    padding-left: 1300px;
+    padding-top: 750px;
+}
+.third {
+    width: 1920px;
+    height: 950px;
+    top: 5326px;
+    background-color: #ffffff;
+}
+.lg1 {
+    width: 508px;
+    height: 470px;
+    margin-left: 138px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 250px;
+    position: absolute;
+    user-select: none;
+}
+.lg1:hover {
+    transition: 0.7s 0.1s;
+    color:rgb(13, 99, 37);
+}
+.lg2 {
+    width: 508px;
+    height: 470px;
+    margin-left: 700px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 250px;
+    position: absolute;
+    user-select: none;
+}
+.lg2:hover {
+    transition: 0.7s 0.1s;
+    color:rgb(135, 78, 3);
+}
+.lg3 {
+    width: 508px;
+    height: 470px;
+    margin-left: 1260px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 250px;
+    position: absolute;
+    user-select: none;
+}
+.lg3:hover {
+    transition: 0.7s 0.1s;
+    color:rgb(129, 121, 4);
+}
+.logo8 {
+    padding-left: 120px;
+}
+.logo9 {
+    margin-left: 120px;
+}
+.logo10 {
+    padding-left: 120px;
+}
+.text6 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: 75px;
+}
+.text7 {
+    text-align: center;
+    font-size: 24px;
+}
+.text8 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: 50px;
+}
+.text9 {
+    text-align: center;
+    font-size: 24px;
+}
+.text10 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: 130px;
+}
+.text11 {
+    text-align: center;
+    font-size: 24px;
+}
+.fourth {
+    width: 1920px;
+    height: 800px;
+    background-color: #EBF0E4;
+}
+.make {
+    position: absolute;
+    font-size: 80px;
+    padding-left: 610px;
+    padding-top: 60px;
+}
+.make1 {
+    font-size: 18px;
+    padding-left: 840px ;
+    padding-top: 250px;
+}
+#date-input {
+    width: 350px;
+    padding: 28px;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #edf1e7;
+    color: #000;
+    text-align: center;
+    outline: none;
+    margin-left: 180px;
+    margin-top: 90px;
+}
+#time-input {
+    width: 425px;
+    padding: 28px;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #edf1e7;
+    color: #777777;
+    text-align: center;
+    outline: none;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+#check-input {
+    width: 410px;
+    padding: 28px;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #edf1e7;
+    color: #777777;
+    text-align: center;
+    outline: none;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+#book_now {
+    width: 255px;
+    padding: 23px;
+    font-size: 25px;
+    background-color:#233000;
+    color: #FFFFFF;
+    margin-left: 828px;
+    margin-top: 110px;
+}

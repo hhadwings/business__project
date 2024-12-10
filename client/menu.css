@@ -1,0 +1,50 @@
+*{
+    font-family: "Rufina";
+}
+.first1 {
+    background-image: url("./imgs/Image\(4\).png") ;
+    width: 1920px;
+    height: 1080px;
+}
+.header1 {
+    width: 1920px;
+    height: 208px;
+}
+
+.logo1 {
+    position: absolute;
+    width: 307px;
+    height: 54px;
+    left: 118px;
+    top: 69px;}
+
+.logo2 {
+    position: absolute;
+    width: 192px;
+    height: 115px;
+    left: 173px;
+    top: 46px;
+}
+.buttonnav {
+    position: absolute;
+    width: 94px;
+    height: 71px;
+    left: 470px;
+    top: 68px;}
+
+.number {
+    user-select: none;
+    position: absolute;
+    left: 1280px;
+    top: 68px;
+    font-weight: 500;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.b0 {
+    height: 88px;
+    margin-top: 60px;
+    margin-left: 1540px ;
+    position: absolute;
+}
