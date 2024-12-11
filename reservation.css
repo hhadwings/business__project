@@ -1,0 +1,68 @@
+*{
+    font-family: "Rufina";
+}
+.fourth {
+    width: 100vw;
+    height: 100vh;
+    background-color: #EBF0E4;
+    margin-top: -20px;
+}
+.make {
+    position: absolute;
+    font-size: 80px;
+    padding-left: 610px;
+    padding-top: 60px;
+}
+.make1 {
+    font-size: 18px;
+    padding-left: 840px ;
+    padding-top: 250px;
+}
+#date-input {
+    width: 350px;
+    padding: 28px;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #edf1e7;
+    color: #000;
+    text-align: center;
+    outline: none;
+    margin-left: 180px;
+    margin-top: 90px;
+}
+#time-input {
+    width: 425px;
+    padding: 28px;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #edf1e7;
+    color: #777777;
+    text-align: center;
+    outline: none;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+#check-input {
+    width: 410px;
+    padding: 28px;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #edf1e7;
+    color: #777777;
+    text-align: center;
+    outline: none;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+#book_now {
+    width: 255px;
+    padding: 23px;
+    font-size: 25px;
+    background-color:#233000;
+    color: #FFFFFF;
+    margin-left: 828px;
+    margin-top: 110px;
+}
