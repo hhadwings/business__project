@@ -1,68 +1,124 @@
-*{
-    font-family: "Rufina";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,600);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-.fourth {
-    width: 100vw;
-    height: 100vh;
-    background-color: #EBF0E4;
-    margin-top: -20px;
+
+/* Загальні стилі для сторінки */
+body {
+  font-family: 'Rufina', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #EBF0E4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
-.make {
-    position: absolute;
-    font-size: 80px;
-    padding-left: 610px;
-    padding-top: 60px;
+
+/* Центрування форми */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
 }
-.make1 {
-    font-size: 18px;
-    padding-left: 840px ;
-    padding-top: 250px;
+
+/* Заголовок */
+h2 {
+  font-family: 'Rufina', serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  color: #000;
 }
-#date-input {
-    width: 350px;
-    padding: 28px;
-    font-size: 20px;
-    border: 2px solid #000;
-    border-radius: 2px;
-    background-color: #edf1e7;
-    color: #000;
-    text-align: center;
-    outline: none;
-    margin-left: 180px;
-    margin-top: 90px;
+
+/* Підзаголовок */
+.subtitle {
+  font-family: 'Rufina', serif;
+  font-size: 24px;
+  text-align: center;
+  color: #555;
+  margin: 0 0 20px;
 }
-#time-input {
-    width: 425px;
-    padding: 28px;
-    font-size: 20px;
-    border: 2px solid #000;
-    border-radius: 2px;
-    background-color: #edf1e7;
-    color: #777777;
-    text-align: center;
-    outline: none;
-    margin-left: 150px;
-    margin-top: 90px;
+
+/* Форма */
+.telegram-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  width: 100%;
+  display: flex;
 }
-#check-input {
-    width: 410px;
-    padding: 28px;
-    font-size: 20px;
-    border: 2px solid #000;
-    border-radius: 2px;
-    background-color: #edf1e7;
-    color: #777777;
-    text-align: center;
-    outline: none;
-    margin-left: 150px;
-    margin-top: 90px;
+
+/* Поля вводу */
+input, textarea, select {
+  width: 516px;
+  height: 96px;
+  padding: 30px 40px;
+  font-size: 1.2rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
 }
-#book_now {
-    width: 255px;
-    padding: 23px;
-    font-size: 25px;
-    background-color:#233000;
-    color: #FFFFFF;
-    margin-left: 828px;
-    margin-top: 110px;
+
+textarea {
+  resize: none;
+  width: 516px; /* Залишаємо ширину для textarea */
+  margin-bottom: 20px; /* Додаємо відступ перед кнопкою */
+}
+
+.center-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрування по горизонталі */
+  justify-content: center;
+  width: 100%;
+  margin-top: 6px;
+}
+
+input[type="file"] {
+  padding: 20px 40px;
+  font-size: 1rem;
+}
+
+/* Кнопка */
+.btn {
+  width: 344px;
+  height: 88px;
+  background-color: #233000;
+  color: #fff;
+  font-family: 'Rufina', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin: 20px auto 0;
+  transition: background-color 0.3s;
+  margin: 0 auto; /* Центруємо кнопку */
+}
+
+.btn:hover {
+  background-color: #2e3b00;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  input, textarea, select {
+      width: 100%;
+  }
+
+  .btn {
+      width: 100%;
+  }
 }

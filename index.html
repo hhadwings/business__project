@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <script defer src="index.js"></script>
     <title>Document</title>
 </head>
 
@@ -20,7 +20,7 @@
                 <a href="/business__project/menu" class="menu0">Menu</a>
                 <a href="/business__project/sp" class="cooking">Cooking</a>
                 <p class="number">+00 000 000 000</p>
-                <a href="/business__project/reservation"><img src="./imgs/Border.png" class="b0"></a>
+                <a href="http://localhost/reservation/reservation.html"><img src="./imgs/Border.png" class="b0"></a>
             </div>
                 <img src="imgs/Image.png" class="logo3">
                 <img src="imgs/Images.png" class="logo4">
@@ -75,31 +75,7 @@
     <div class="fourth">
             <b><p class="make">Make a Reservation</p></b>
             <p class="make1">Get in touch with restaurant</p>
-            <input type="text" placeholder="01/01/2025" id="date-input">
-            <select id="time-input">
-                <option value="1">10:00</option>
-                <option value="2" selected>11:00</option>
-                <option value="3">12:00</option>
-                <option value="4">13:00</option>
-                <option value="5">14:00</option>
-                <option value="6">15:00</option>
-                <option value="7">16:00</option>
-                <option value="8">17:00</option>
-                <option value="9">18:00</option>
-                <option value="10">19:00</option>
-                <option value="11">20:00</option>
-                <option value="12">21:00</option>
-                <option value="13">22:00</option>
-            </select>
-                    <select id="check-input">
-                        <option value="1">1 Person</option>
-                        <option value="2" selected>2 Person</option>
-                        <option value="3">3 Person</option>
-                        <option value="4">4 Person</option>
-                        <option value="5">5 Person</option>
-                        <option value="6">More</option>
-                    </select>
-            <button id="book_now">Book now</button>
+            <button id="book_now"><a href="http://localhost/reservation/reservation.html" >Book now</a></button>
     </div>
 
     <footer class="footer">
@@ -116,8 +92,8 @@
         <div class="footer-item subscribe">
              <span class="footer_caption">Never Miss a Recipe</span>
             <div class="subscribe_input">
-            <input type="text" placeholder="Enter your email" />
-            <button>Subscribe</button>
+            <input id="subscribe-input" type="text" placeholder="Enter your email" />
+            <button id="subscribe-btn">Subscribe</button>
         </div>
         <a class="undertext">Join our subscribers and get best recipe delivered each week!</a>
         </div>

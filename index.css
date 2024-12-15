@@ -250,7 +250,7 @@
 }
 .fourth {
     width: 1920px;
-    height: 800px;
+    height: 560px;
     background-color: #EBF0E4;
 }
 .make {
@@ -305,12 +305,16 @@
 }
 #book_now {
     width: 255px;
-    padding: 23px;
     font-size: 25px;
     background-color:#233000;
     color: #FFFFFF;
     margin-left: 828px;
     margin-top: 110px;
+    padding: 23px;
+}
+#book_now a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .footer {
     display: flex;

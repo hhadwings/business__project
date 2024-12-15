@@ -4,23 +4,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="menu.css">
     <title>Document</title>
+    <script defer src="menu.js"></script>
+
 </head>
 
+
 <body>
-    <div class="first1">
-            <div class="header1">
-                    <img src="./imgs/FoodZero.png" class="logo1">
-                    <img src="./imgs/Subtract.png" class="logo2">
-                    <a href=""><img src="./imgs/NaviOpen.png" class="buttonnav"></a>
-                    <p class="number">+00 000 000 000</p>
-                    <a href=""><img src="./imgs/Border.png" class="b0"></a>
+    <div class="first Menubg"> 
+        <div class="header">
+            <img src="./imgs/FoodZero.png" class="logo1">
+                <img src="./imgs/Subtract.png" class="logo2">
+                <a href="/business__project/menu" class="menu0">Menu</a>
+                <a href="/business__project/sp" class="cooking">Cooking</a>
+                <p class="number">+00 000 000 000</p>
+                <a href="http://localhost/reservation/reservation.html"><img src="./imgs/Border.png" class="b0"></a>
+        </div>
+    
+    
+        <div class="menucaption">
+            <p class="text1"> View Our New Menu </p>
+            <p class="text2">The freshest ingredients for you every day </p>
+        </div>
+    </div>
+</div>
+<div class="starter_block">
+    <img src="./imgs/Blueberry.png" class="Blueberry">
+    <div class="caption">
+        <h2 class="starters_block_caption">Starters</h2>
+        <p class="starte_block_undercaption">Discover our hearty main dishes, expertly crafted to satisfy your appetite.</p>
+    </div>
+    <div class="menu-content">
+        <div class="menu-image">
+            <img src="./imgs/starter_block_image.png" alt="starter_block_image">
+        </div>
+        <div class="menu-items">
+            <div class="dish">
+                <h3 class="dish_caption">Grilled Okra and Tomatoes </h3>
+                <p>Price: $20.00</p>
             </div>
-    </div>      
+            <div class="dish">
+                <h3 class="dish_caption">Cucumber Salad</h3>
+                <p>Price: $18.50</p>
+            </div>
+            <div class="dish">
+                <h3 class="dish_caption">Basil Pancakes</h3>
+                <p>Price: $12.00</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main_dish_block">
+    <div class="caption">
+        <h2 class="starters_block_caption">Main Dishes</h2>
+        <p class="starte_block_undercaption">Explore our selection of hearty main dishes that will satisfy your appetite.</p>
+    </div>
+    <div class="menu-content">
+        <div class="menu-items">
+            <div class="dish">
+                <h3 class="dish_caption">Deep Sea Snow White Cod Fillet</h3>
+                <p>Price: $25.00</p>
+            </div>
+            <div class="dish">
+                <h3 class="dish_caption">Steak With Rosemary Butter</h3>
+                <p>Price: $22.00</p>
+            </div>
+            <div class="dish">
+                <h3 class="dish_caption">Steaks with Grilled Kimchi</h3>
+                <p>Price: $18.00</p>
+            </div>
+        </div>
+        <div class="menu-image_main">
+            <img src="./imgs/main_dish_image.png" alt="main_dish_image">
+        </div>
+    </div>
+</div>
+<div class="pastries_drinks_block">
+    <img src="./imgs/Avocado.png" class="Pastries">
+    <div class="caption_drinks">
+        <h2 class="starters_block_caption">Pastries & Drinks</h2>
+        <p class="starte_block_undercaption">Indulge in our delightful pastries and refreshing drinks.</p>
+    </div>
+    <div class="menu-content">
+        <div class="menu-image">
+            <img src="./imgs/pastries_block_image.png" alt="pastries_block_image">
+        </div>
+        <div class="menu-items">
+            <div class="dish">
+                <h3 class="dish_caption">Wine Pairing</h3>
+                <p>Price: $158.00</p>
+            </div>
+            <div class="dish">
+                <h3 class="dish_caption">Natural Wine Pairing</h3>
+                <p>Price: $168.50</p>
+            </div>
+            <div class="dish">
+                <h3 class="dish_caption">Whisky Flyer</h3>
+                <p>Price: $90.00</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="fourth">
+    <b><p class="make">Make a Reservation</p></b>
+    <p class="make1">Get in touch with restaurant</p>
+    <button id="book_now"><a href="http://localhost/reservation/reservation.html" >Book now</a></button>
+</div>
+
+<footer class="footer">
+    <div class="footer-item fototer_logo">Food Zero</div>
+    <div class="footer-item "><p class="footer_caption">Contact</p>
+        <p class="contact_text">
+            +1+86 852 346 000 info@foodzero.com
+        </p>
+        <br>
+        <p class="contact_text">
+            1959 Sepulveda Blvd. Culver City, CA, 90230
+        </p>
+    </div>
+    <div class="footer-item subscribe">
+        
+        <span class="footer_caption">Never Miss a Recipe</span>
+        <div class="subscribe_input">
+        <input id="subscribe-input" type="text" placeholder="Enter your email" />
+        <button id="subscribe-btn">Subscribe</button>
+    </div>
+    <a class="undertext">Join our subscribers and get best recipe delivered each week!</a>
+    </div>
+</footer>
+<div class="footer_final">
+    <p class="footer_final_text">© 2025 Zero Inc. All rights Reserved </p>
+</div>
 </body>
 
 </html>
